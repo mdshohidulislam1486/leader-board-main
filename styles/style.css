@@ -182,16 +182,40 @@
 }
 span > i, span{
     font-family:Roboto;
-    font-size:10px;
-    font-weight:300;
+    font-size:12px;
+    font-weight:400;
 }
 
 .course-icon{
     display:flex;
     justify-content: space-between;
     margin:13px 0;
+    align-items: center;
 }
 .course{
-    box-shadow: 0 1px 10px 10px #fff;
+    box-shadow: 0 1px 1px 1px gray;
     padding:10px 10px 0 10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+}
+.fa-star{
+    color:#FFC014;
+}
+span .not-filled, span{
+    color:#AEAEAE;
+    
+}
+.icon-watch .fa-clock, .icon-time{
+    color:#ED6B4F;
+    padding:10px;
+}
+
+.icon-watch{
+    background-color:#FEE5DF;
+    border-radius: 14.59px;
+}
+
+@media only screen and (max-width:688px){
+
 }
