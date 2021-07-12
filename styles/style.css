@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
+
 /*----------------------------
  common use of style 
  ----------------------------*/
@@ -12,10 +13,11 @@
      margin:0;
      padding:0;
      box-sizing:border-box;
-     font-family: 'Poppins', sans-serif;
+     
  }
  body{
      background-color:#F3F1FF;
+     font-family: 'Poppins', sans-serif;
  }
  .section-header{
      padding:33px;
@@ -28,7 +30,7 @@
  }
  section{
      border-radius: 5px;
-     margin:47px 0 14px 0;
+     margin:47px 0 -25px 0;
  }
  main .section-1, .section-2{
     background-color: #fff;
@@ -149,11 +151,47 @@
 
 
  /* lates courses */
+ .section-2{
+     margin-bottom:50px;
+     padding-bottom:20px;
+ }
 
  .course-img img{
-     width: 266px;
-     height:141px;
+     width: 224px;
+     height:104px;
  }
- .fa, .far, .fas{
-     font-family: "Raleway";
- }
+.lates-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin:0 30px;
+    
+}
+.course-content {
+    width:222px;
+}
+.course-head{
+    font-family: Roboto;
+    font-size:20px;
+}
+.course-designer{
+    font-family: Roboto;
+    font-size:14.69px;
+    font-weight: 400;
+    color:#ED6B4F;
+}
+span > i, span{
+    font-family:Roboto;
+    font-size:10px;
+    font-weight:300;
+}
+
+.course-icon{
+    display:flex;
+    justify-content: space-between;
+    margin:13px 0;
+}
+.course{
+    box-shadow: 0 1px 10px 10px #fff;
+    padding:10px 10px 0 10px;
+}
