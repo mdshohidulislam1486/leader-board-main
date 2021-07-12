@@ -30,6 +30,10 @@
      border-radius: 5px;
      margin:47px 0 14px 0;
  }
+ main .section-1, .section-2{
+    background-color: #fff;
+    width:870px;
+}
 
  /* header styles */
  header{
@@ -81,10 +85,7 @@
      flex-direction: column;
      align-items: center;
  }
- main .section-1{
-    background-color: #fff;
-    width:870px;
-}
+ 
 .player{
     margin-bottom:30px;
 }
@@ -144,4 +145,15 @@
  .blog-content p a{
      text-decoration :none;
      color:#562EFF;
+ }
+
+
+ /* lates courses */
+
+ .course-img img{
+     width: 266px;
+     height:141px;
+ }
+ .fa, .far, .fas{
+     font-family: "Raleway";
  }
