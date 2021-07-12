@@ -217,5 +217,39 @@ span .not-filled, span{
 }
 
 @media only screen and (max-width:688px){
+.nav-container, .top-player, .lates-course, .top-blogs{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:1em;
+    
+ }
+ .nav-right{
+    display:flex;
+    justify-content: space-between;
+    
+ }
+ .nav-right ul li, .nav-img img{
+    margin: 0 10px; 
+    padding-bottom:15px;
+}
+.top-blog{
+    display: grid;
+    grid-template-columns: 1;
+    grid-gap:-2em;
+  
+}
+.blog-img{
+    width:80%;
+    position:relative;
+}
+.blog-img img{
+    
+    width:100%;
+    position:absolute;
+
+
+}
+
+
 
 }
