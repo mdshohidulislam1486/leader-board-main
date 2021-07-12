@@ -217,9 +217,13 @@ span .not-filled, span{
 }
 
 @media only screen and (max-width:688px){
+    main .section-1, .section-2{
+        background-color: #fff;
+        width:100%;
+    }
 .nav-container, .top-player, .lates-course, .top-blogs{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap:1em;
     
  }
@@ -233,21 +237,21 @@ span .not-filled, span{
     padding-bottom:15px;
 }
 .top-blog{
-    display: grid;
-    grid-template-columns: 1;
-    grid-gap:-2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
   
 }
+  
 .blog-img{
-    width:80%;
-    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1em;
 }
-.blog-img img{
-    
-    width:100%;
-    position:absolute;
-
-
+.blog-img img{  
+    width:80%;
 }
 
 
