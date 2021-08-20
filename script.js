@@ -48,7 +48,7 @@ submit.addEventListener('click', function(){
     const newLi =document.createElement('li')
     newLi.innerText = "Our Latest Course"
     newUl.appendChild(newLi)
-    if(parseFloat(inputFiled.value) < 5 ){
+    if(parseFloat(inputFiled.value) <5 ){
         inputFiled.value = parseFloat(inputFiled.value) + 1
     } else {
         submit.setAttribute('disabled', true)
